@@ -1,0 +1,18 @@
+// main: base.less
+
+//Color Variables
+@tundora: rgba(68,68,68,1);
+@gold: rgba(252,201,65,1);
+@lt-grey: rgba(171,171,171,1);
+@md-grey: rgba(117,117,117,1);
+
+//Typography Variables
+@font-family: 'Lato', sans-serif;
+
+//Typography Mixins
+.font-family {
+    font-family: @font-family;
+}
+.underline(@c, @w: 0.0625em) {
+    border-bottom: @w solid @c;
+}
